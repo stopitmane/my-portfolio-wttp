@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+section#certifications {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 12px;
+  }
+
+  section#certifications h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  section#certifications ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  section#certifications li {
+    background: #f1f5f9;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  section#certifications li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  section#certifications li strong {
+    color: #1e3a8a;
+    font-size: 1.1rem;
+  }
+
+  section#certifications li a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-self: flex-start;
+  }
+
+  section#certifications li a:hover {
+    text-decoration: underline;
+    color: #1e40af;
+  }
+
+  section#certifications li span {
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+
+ 

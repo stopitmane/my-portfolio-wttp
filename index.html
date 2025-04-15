@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Front-End Developer specializing in modern web technologies.</p>
+    </header>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>FreshCandy Ecommerce Website</h3>
+            <p>An Ecommerce web application that showcases my skills in HTML, CSS, and JavaScript.</p>
+            <a href="https://freshcart-candy-com.vercel.app/" target="_blank">View on Vercel</a>
+        </div>
+        <div class="project">
+            <h3>Company Website [Scitech]</h3>
+            <p>A React-based Company website dashboard for managing tasks and productivity.</p>
+            <a href="https://sci-tech.vercel.app/" target="_blank">View on Vercel</a>
+        </div>
+        <div class="project">
+            <h3>TimbuCloud Website</h3>
+            <p>An Ecommerce web application that showcases my skills in HTML, CSS, and JavaScript.</p>
+            <a href="https://timbucloudwebsite.vercel.app/" target="_blank">View on Vercel</a>
+        </div>
+        <div class="project">
+            <h3>Bincom Company Profile Website</h3>
+            <p>A Python web application that showcases my skills in Python, HTML, CSS, and JavaScript.</p>
+            <a href="https://bincom-nine.vercel.app/" target="_blank">View on Vercel</a>
+        </div>
+        <div class="project">
+            <h3>Crypto Tracker</h3>
+            <p>A web application that tracks cryptocurrency prices in real-time using the CoinGecko API.</p>
+            <a href="https://crypto-tracker-wttp.vercel.app/" target="_blank">View on Vercel</a>
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li>
+            <strong>Full-Stack Web Development(Front End) Certificate</strong>
+            <span>New Horizons (Aug 2023)</span>
+            <a href="https://drive.google.com/file/d/14IKBtXe2gXU8TsXOpgY_CNQocI9iTb_i/view?usp=sharing" target="_blank">View Certificate</a>
+          </li>
+          <li>
+            <strong>Python (Beginners) Certificate</strong>
+            <span>Bincom Academy (Aug 2024)</span>
+            <a href="https://drive.google.com/file/d/19tiQT9sbto7s7WcbHKeUGYu80TpPaQ8V/view?usp=sharing" target="_blank">View Certificate</a>
+          </li>
+          <li>
+            <strong>Python (Intermediate) Certificate</strong>
+            <span>Bincom Academy (September 2023)</span>
+            <a href="https://drive.google.com/file/d/1E9y1hmqb2Dy3d5D4g7rdbk_ZAlcQv13N/view?usp=sharing" target="_blank">View Certificate</a>
+          </li>
+        </ul>
+      </section>
+      
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, JavaScript, HTML, CSS</li>
+            <li>React, Tailwind CSS, Vue.js</li>
+            <li>Node.js, Express, Django (basic)</li>
+            <li>MySQL, PostgreSQL, or MongoDB</li>
+            <li>REST APIs, JWT Auth, Web Scraping (BeautifulSoup, Requests), Automation (Selenium).</li>
+            <li>Git, GitHub, Vercel, Render</li>
+        </ul>
+    </section>
+    
+    <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+        <p>Tech Stack: Python, JavaScript, HTML, CSS</p>
+        <a href="https://github.com/stopitmane/portfolio" target="_blank">View on GitHub</a>
+    </div>
+    
+    <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="/send-email" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 groovyjwttp. All rights reserved.</p>
+    <p>Contact me at: ajayijohn19999@gmail.com</p>
+</footer>
+
+</body>
+</html>
